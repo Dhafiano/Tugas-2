@@ -1,0 +1,112 @@
+[
+    {
+        "model":"mywatchlist.barangwatchlist",
+        "pk":1,
+        "fields":{
+            "watched": true,
+            "title": "Pinocchio",
+            "rating": 5,
+            "release_date": "8 September 2022",
+            "review": "Seru, banyak pesan moralnya"
+        }
+},
+{
+        "model":"mywatchlist.barangwatchlist",
+        "pk":2,
+        "fields":{
+            "watched": true,
+            "title": "Blind side",
+            "rating": 5,
+            "release_date": "20 November 2022",
+            "review": "film dokumenter yang menginspirasi"
+        }
+    },
+    {
+        "model":"mywatchlist.barangwatchlist",
+        "pk":3,
+        "fields":{
+            "watched": true,
+            "title": "Serendipity",
+            "rating": 5,
+            "release_date": "9 Agustus 2018",
+            "review": "Menceritakan ketulusan hati pada masa SMA"
+        }
+    },
+    {
+        "model":"mywatchlist.barangwatchlist",
+        "pk":4,
+        "fields":{
+            "watched": true,
+            "title": "Raja, Ratu dan Rahasia",
+            "rating": 4,
+            "release_date": "12 Juli 2018",
+            "review": "Cerita cinta SMA yang penuh dengan masalah kepercayaan"
+        }
+    },
+    {
+        "model":"mywatchlist.barangwatchlist",
+        "pk":5,
+        "fields":{
+            "watched": true,
+            "title": "Meet Me After Sunset",
+            "rating": 4,
+            "release_date": "9 Februari 2018",
+            "review": "Bagus, cerita cinta SMA tentang mengerti satu sama lain"
+        }
+    },
+    {
+        "model":"mywatchlist.barangwatchlist",
+        "pk":6,
+        "fields":{
+            "watched": true,
+            "title": "How to train your dragon 2",
+            "rating": 5,
+            "release_date": "13 Juni 2014",
+            "review": "Animasinya sangat keren dan persona karakter yang bagus"
+        }
+    },
+    {
+        "model":"mywatchlist.barangwatchlist",
+        "pk":7,
+        "fields":{
+            "watched": true,
+            "title": "Ready Player One",
+            "rating": 5,
+            "release_date": "28 Maret 2018",
+            "review": "Animasi dan plot twist yang bagus"
+        }
+    },
+    {
+        "model":"mywatchlist.barangwatchlist",
+        "pk":8,
+        "fields":{
+            "watched": true,
+            "title": "Blind side",
+            "rating": 5,
+            "release_date": "20 November 2022",
+            "review": "film dokumenter yang menginspirasi"
+        }
+    },
+    {
+        "model":"mywatchlist.barangwatchlist",
+        "pk":9,
+        "fields":{
+            "watched": true,
+            "title": "Me Time",
+            "rating": 3,
+            "release_date": "26 Agustus 2022",
+            "review": "film komedi seru yang mengajarkan self healing"
+        }
+    },
+    {
+        "model":"mywatchlist.barangwatchlist",
+        "pk":10,
+        "fields":{
+            "watched": true,
+            "title": "Inception",
+            "rating": 5,
+            "release_date": "16 Juli 2010",
+            "review": "filmnya bagus bikin yang nonton pusing"
+        }
+    }
+]

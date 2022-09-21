@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h5>Name: {{name}}</h5>
+<h5>NPM: {{studentid}}</h5>
+<p>Fill me!</p>
+
+<table>
+    <tr>
+    <th>Watch</th>
+    <th>Title</th>
+    <th>Rating</th>
+    <th>Release date</th>
+    <th>Review</th>
+    </tr>
+    {% comment %} Add the data below this line {% endcomment %}
+    {% comment %} Add the data below this line {% endcomment %}
+    {% for watchlist in list_watchlist%}
+    <tr>
+      <th>{{watchlist.watched}}</th>
+      <th>{{watchlist.title}}</th>
+      <th>{{watchlist.rating}}</th>
+      <th>{{watchlist.release_date}}</th>
+      <th>{{watchlist.review}}</th>
+    </tr>
+  {% endfor %}
+</table>
+{% endblock content %}
