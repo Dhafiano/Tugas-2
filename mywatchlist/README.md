@@ -18,6 +18,13 @@ Jawaban:
 
  2. Dikarenakan data yang telah dibuat dapat ditampilkan pada berbagai platform dengan menggunakan satu resource code. Sehingga user tidak harus menyusahkan diri lagi untuk membuat berbagai resource code untuk masing-masing platform.
 
+3. Langkah-langkah dalam implementasi checklist:
+    - Yang pertama mengakses file mywatchlist, mengambil template-templatenya.
+    - Kemudian code yang ada di urls.py, view.py dan models.py diisi sesuai dengan yang diinginkan soal yaitu mywatchlist.
+    - Selanjutnya mengimplementasikan import harus sesuai dengan class yang sudah diisi.
+    - Dicek kembali hal-hal yang harus diisi pada template-template platform program seperti yang dikatakan pada tahap 2, jangan lupa pada json dan htmlnya.
+    - Dan yang terakhir push kedalam github dan deploy kedalam heroku.
+
 ![Screenshot (270)](https://user-images.githubusercontent.com/112342752/191591609-56654294-e276-4b05-b56d-5ecaa97e8008.png)
 ![Screenshot (271)](https://user-images.githubusercontent.com/112342752/191591782-4104962f-bfed-4497-97a0-8e5a328ad44b.png)
 ![Screenshot (272)](https://user-images.githubusercontent.com/112342752/191591955-decb629d-13c8-4be8-8a06-734bc8e13051.png)
