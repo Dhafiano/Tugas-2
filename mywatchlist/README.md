@@ -2,7 +2,9 @@
 # 2106751631
 # PBP E
 # Tugas 3
-# Link web https://dhafiano-tugas3.herokuapp.com/mywatchlist/html
+# Link web 1 https://dhafiano-tugas3.herokuapp.com/mywatchlist/html
+# Link web 2 https://dhafiano-tugas3.herokuapp.com/mywatchlist/xml
+# Link web 3 https://dhafiano-tugas3.herokuapp.com/mywatchlist/json
 
 1. Jelaskan perbedaan antara JSON, XML, dan HTML!
 2. Jelaskan mengapa kita memerlukan data delivery dalam pengimplementasian sebuah platform?
