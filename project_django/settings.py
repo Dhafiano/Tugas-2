@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'katalog',
     'mywatchlist',
     'todolist',
-]
+    ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
