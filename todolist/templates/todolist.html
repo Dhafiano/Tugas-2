@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %} 
+{{currently_user}}
+<table>
+    <tr>
+    <th>Date</th>
+    <th>Title</th>
+    <th>Description</th>
+    </tr>
+    {% comment %} Add the data below this line {% endcomment %}
+    {% for task in list_task %}
+    <tr>
+      <td>{{task.date}}</td>
+      <td>{{task.title}}</td>
+      <td>{{task.description}}</td>
+    </tr>
+  {% endfor %}
+</table>
+{% endblock content %}
+
