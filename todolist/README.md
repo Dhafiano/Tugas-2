@@ -4,8 +4,11 @@
 # Tugas 4
 
 # Link web 1 : https://dhafiano-tugas3.herokuapp.com/todolist/login/
-# Link web dummy data 1 : https://dhafiano-tugas3.herokuapp.com/todolist/list_task/   
-# Link web dummy data 2 : https://dhafiano-tugas3.herokuapp.com/todolist/list_task/
+
+dummy data:
+![image](https://user-images.githubusercontent.com/112342752/192917646-287401b1-c6cc-4c55-8a2b-1b2c6be0e558.png)
+![image](https://user-images.githubusercontent.com/112342752/192917690-3c995308-3e80-4247-bb97-fe792dd1892c.png)
+
 
 
 1. Apa kegunaan {% csrf_token %} pada elemen <form>? Apa yang terjadi apabila tidak ada potongan kode tersebut pada elemen <form>?
