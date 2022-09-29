@@ -25,4 +25,3 @@ Jawaban:
    - Dan yang terakhir dalam pemrograman kodenya adalah membuat html kolom task agar user dapat mengisi dan menambahkan task baru, kalau disaya namanya create_todolist.html.
    - Setelah semuanya jadi tinggal python manage.py makemigrations, python manage.py migrate, dan python manage.py runserver.
    - Habis itu deploy ke github dan heroku.
-   - 
