@@ -5,6 +5,17 @@
 {% endblock meta %}
 
 {% block content %}
+<style>
+    body {
+        background-color: rgb(0, 183, 255);
+    }
+</style>
+
+<nav class="navbar" style="background-color: rgb(255, 255, 0);font-family: monospace;"> <!--buat warna background-->
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Welcome to Dhafiano Todolist Website</span>
+    </div>
+</nav>
 
 <div class = "login">
 
@@ -38,8 +49,8 @@
         </ul>
     {% endif %}     
         
-    Belum mempunyai akun? <a href="{% url 'todolist:register' %}">Buat Akun</a>
-
+    Belum mempunyai akun? <a class="btn btn-outline-success me-2" type="button" href="{% url 'todolist:register' %}">Buat Akun</a>
+    
 </div>
 
 {% endblock content %}

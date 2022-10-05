@@ -6,7 +6,7 @@ def showkatalog(request):
     context = {
     'list_barang': data_katalog,
     'name': 'Dhafiano Fadeyka Ghani Wiweko',
-    'studentid': ''
+    'studentid': '2106751631'
 }
     return render(request, "katalog.html", context)
 # TODO: Create your views here.
