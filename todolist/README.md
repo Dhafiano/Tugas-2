@@ -3,6 +3,14 @@
 # PBP-E
 # Tugas 4
 
+# Link web 1 : https://dhafiano-tugas3.herokuapp.com/todolist/login/
+
+dummy data:
+![image](https://user-images.githubusercontent.com/112342752/192917646-287401b1-c6cc-4c55-8a2b-1b2c6be0e558.png)
+![image](https://user-images.githubusercontent.com/112342752/192917690-3c995308-3e80-4247-bb97-fe792dd1892c.png)
+
+Pertanyaan:
+
 1. Apa kegunaan {% csrf_token %} pada elemen <form>? Apa yang terjadi apabila tidak ada potongan kode tersebut pada elemen <form>?
 2. Apakah kita dapat membuat elemen <form> secara manual (tanpa menggunakan generator seperti {{ form.as_table }})? Jelaskan secara gambaran besar bagaimana cara membuat <form> secara manual.
 3. Jelaskan proses alur data dari submisi yang dilakukan oleh pengguna melalui HTML form, penyimpanan data pada database, hingga munculnya data yang telah disimpan pada template HTML.
