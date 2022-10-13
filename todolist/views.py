@@ -12,6 +12,7 @@ import datetime
 from django.http import HttpResponseRedirect
 from django.urls import reverse
 from todolist.forms import TaskForm
+from django.http import HttpResponse, HttpResponseNotFound
 
 @login_required(login_url='/todolist/login/')
 def show_todolist(request):
@@ -79,3 +80,29 @@ def create_task(request):
         'title' : "Tambah Task",     
         }
     return render(request, "create_todolist.html", context)
+
+@login_required(login_url='/todolist/login/')
+def todolist_json(request):
+    data_task = Task.objects.all().filter(usernames=request.user)
+    return HttpResponse(serializers.serialize('json', data_task), content_type="application/json")
+
+@login_required(login_url='/todolist/login/')
+def todolist_add(request):
+    if request.method == 'POST':
+        title = request.POST.get("title")
+        description = request.POST.get("description")
+
+        task = Task.objects.create(title=title, description=description, date=datetime.date.today(), usernames=request.user)
+        task.save()
+        result = {
+            'fields':{
+                'title': task.title,
+                'description': task.description,
+                'date': task.date,
+            },
+            'pk': task.pk
+        }
+
+        return HttpResponse(b"CREATED", status=200)
+
+    return HttpResponseNotFound()
